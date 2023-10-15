@@ -74,3 +74,19 @@
   display: flex;
   justify-content: center;
 }
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  align-items: center;
+}
+
+.track p {
+  font-size: xx-large;
+  color: green;
+  margin: 1% 10% 1% 0;
+}
