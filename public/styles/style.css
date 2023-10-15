@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background-color: green;
+  color: white;
+}
+.header h1 {
+  margin: 3% 5% 3% 5%;
+}
+
+.body {
+  background-image: url(/images/istockphoto-1335319683-612x612.jpg);
+  background-size: cover;
+}
+
+.home {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 40%;
+  height: 20%;
+  margin: 15% auto auto auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form input {
+  font-size: xx-large;
+  width: 50%;
+  margin: 5% 25% 0 25%;
+  background-color: rgb(13, 123, 13, 0.5);
+}
+
+.form button {
+  font-size: xx-large;
+  width: 60%;
+  margin: 2% 20% 0 20%;
+}
+
+.artist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  background-color: rgb(13, 123, 13, 0.5);
+}
+
+.formArtist {
+  width: 20%;
+  margin: 5% auto 0 auto;
+}
+
+.formArtist img {
+  display: flex;
+  width: 10vw;
+  margin: auto auto auto auto;
+  height: 10vw;
+  justify-content: center;
+}
+
+.formArtist p {
+  width: 100%;
+  text-align: center;
+}
+
+.formArtist a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
